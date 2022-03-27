@@ -1,0 +1,8 @@
+services:
+  nginx:
+    build: ./
+    volumes:
+      - ./src:/src
+    ports:
+      - 8080:80
+# docker-compose run
